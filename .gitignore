@@ -117,3 +117,28 @@ app.*.symbols
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Flutter/Dart
+.fvm/
+.pub-cache/
+migrate_working_dir/
+
+# Android
+/android/app/debug
+/android/app/profile
+/android/app/release
+*.keystore
+
+# Segredos (caso use no futuro)
+.env
