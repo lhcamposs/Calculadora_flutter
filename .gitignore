@@ -142,10 +142,3 @@ migrate_working_dir/
 
 # Segredos (caso use no futuro)
 .env
-
-/android
-/ios
-/linux
-/macos
-/windows
-/web
